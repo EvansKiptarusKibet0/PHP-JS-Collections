@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>The variables in javascript</title>
+<script type="text/javascript">
+
+function person(name,age){
+this.name=name;
+this.age=age;
+}
+
+var x=new person("evans",24);
+var y=new person("Boaz mark",34);
+</script>
+</head>
+<body>
+<script type="text/javascript">
+document.write(x.name+" has an age of "+x.age);
+document.write("<br/>");
+document.write(y.name+" has an age of "+y.age);
+</script>
+</body>
+
+</html>

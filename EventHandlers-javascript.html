@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>The variables in javascript</title>
+</head>
+<body onload="loadPage()" onunload="getOut()">
+<script type="text/javascript">
+function getLogin(){
+alert("You are login here");
+}
+
+function mouseUp(){
+alert("Mail to evans Kibet");
+}
+
+function mouseOut(){
+document.write("<br/>");
+document.write("The mouse is out of link");
+
+}
+
+function loadPage(){
+alert("Your page is loading");
+}
+
+function getOut(){
+alert("Goodbye the user");
+}
+</script>
+<p>Click to get login</p>
+<form>
+<input type="button" value="Login here" onclick="getLogin()"/>
+</form>
+<p><a href="mailTo:evanskibet114@gmail.com" onmouseover="mouseUp()" onmouseout="mouseOut()">mail me here</a></p>
+</body>
+
+</html>

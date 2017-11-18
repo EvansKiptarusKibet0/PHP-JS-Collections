@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>The variables in javascript</title>
+<script type="text/javascript">
+
+</script>
+</head>
+<body>
+<script type="text/javascript">
+var cities=new Array("Nairobi","Eldoret","Kisumu");
+var anotherCities=new Array("Nakuru","Naivasha");
+//find array lenght
+document.write(cities.length);
+
+//concat mwethod
+var allCities=cities.concat(anotherCities);
+document.write(allCities);
+document.write("<br/>");
+
+//join method to convert to string
+var string1=cities.join();//use the separator join("-");
+document.write(string1);
+document.write("<br/>");
+
+//method to remove the last element
+document.write(cities[2]);
+cities.pop();
+document.write("<br/>");
+document.write(cities[2]);
+
+//reverse method
+document.write("<h2>The other methods of an array</h2>")
+var st1=cities.reverse();
+var st2=cities.push("Mombasa");
+var st3=cities.sort();
+document.write(st1);
+document.write(st2);
+document.write(st3);
+
+
+</script>
+</body>
+
+</html>
